@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 #footerLogo  {
@@ -10,11 +10,13 @@ display: block;
 footer p {
     text-align: center;
     line-height: 0.5;
+    font-size: 12px;
+}
+footer{
+    margin-bottom: 100px;
 }
 footer , header{
-
    align-items: center;
-
 }
 header{
     padding: 0;
@@ -58,10 +60,19 @@ header h1 , h6{
 }
 .firstSec{
 display: grid;
-grid-template-columns: auto 20px;
+grid-template-columns: auto 50px;
 align-items: center;
 margin : 30px 0px;
 }
+.firstSec div:last-child p{
+    display: block;
+    float: right;
+font-size: 10px;
+}
+.firstSec div:last-child img{
+align-content: center;
+}
+
 header section:last-child img:nth-child(6){
     padding-right: 10px;
 }
@@ -100,11 +111,28 @@ header section:last-child img{
     height: 20px;
 }
 .footerSec{
+    padding: 10px ;
     width: 100%;
     height: 200px;
     display: grid;
-    grid-template-columns: 80px 500px;
-    gap: 20%;
-
+    grid-template-columns: 80px 500px auto;
+    align-items: flex-start;
+}
+footer h4{
+    margin: 0;
+}
+#VanessaP {
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+    font-size: 15px;
 }
 
+footer a {
+    padding: 15px 25px;
+    width: 150px;
+    background-color: brown;
+    text-decoration: none;
+    color: wheat;
+    float: right;
+}

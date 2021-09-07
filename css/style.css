@@ -2,6 +2,9 @@ body{
     width: 70%;
     margin: auto;
 }
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+}
 #footerLogo  {
 display: block;
   margin-left: auto;
